@@ -1650,7 +1650,7 @@
 	"coffeeAutoOutputPathStyle": 0,
 	"coffeeCreateSourceMap": 0,
 	"coffeeLintFlags2": {
-		"arrow_spacing": {
+		"arrowspacing": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -1658,7 +1658,7 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"colon_assignment_spacing": {
+		"colon_assignmentspacing": {
 			"active": 0,
 			"flagValue": 1
 			},
