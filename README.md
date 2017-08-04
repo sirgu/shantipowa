@@ -16,3 +16,5 @@ git status
 git add -A
 git commit -m „hier kommt eine beliebige nachricht rein“
 git push
+
+
