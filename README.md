@@ -1,6 +1,11 @@
 # shantipowa
 shanti powas website
 
+cd Documents/github/shantipowa/shantipowa
+pwd
+*ls zeigt die files im ordner an
+
+
 git branch               
 (has to be gh-pages)
 
