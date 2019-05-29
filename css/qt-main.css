@@ -5252,12 +5252,15 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center; }
 
   h5 {
+     color: #00FFB0;
     font-size: 0.8rem; }
 
   h4 {
+     color: #00FFB0;
     font-size: 1.5rem; }
 
   h3 {
+     color: #00FFB0;
     font-size: 2.25rem; }
 
   h2 {
