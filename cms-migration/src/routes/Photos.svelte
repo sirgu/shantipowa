@@ -45,7 +45,15 @@ onMount(()=>{
             <div><img src="{photo.img.path}" alt="{photo.title}"></div>
         {/each}
         {/if}
-
-            
     </div>
 </div>
+
+<style>
+    @media screen and (min-width: 480px){
+        .qtgallery img {
+            width: 100%;
+            height: 90vh;
+        }
+    }
+    
+</style>

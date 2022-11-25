@@ -204,17 +204,6 @@ $.fn.qwInitPage = function(){
     // Sticky js http://stickyjs.com/
     $("#stickymenu").sticky({topSpacing:0, responsiveWidth: true, zIndex: 100});
 
-    $(".modal-trigger").on("click",function(e){
-        e.preventDefault();
-        if($(this).attr("data-iframe") !== undefined) {
-            $("#modalframe").attr("src", $(this).attr("data-iframe"));
-        }
-        return true;
-    });
-
-    //  initialize the modal window of the album
-    $('.modal-trigger').leanModal();
-
     //  initialize the animated background polygons
     $.fn.parallaxPolydecor();
 
@@ -340,7 +329,7 @@ $.fn.qwInitPage();
                         <div class="container">
                             <div class="qt-framed center-align"   data-100p-top="opacity:0;" data-80p-top="opacity:0;" data-30p-top="opacity:1;" >
                                 <h2 class="qt-section-title">Shop<i class="deco"></i></h2>
-                                <img src="images/sp_merch.jpg" width="720" alt="background">
+                                <img src="images/sp_merch.jpg" width="100%" alt="background">
                                 <h4 class="center-align"><a href="https://shantipowarecords.bandcamp.com/merch">Shanti Powa Records Shop</a></h4>
                             </div>
                         </div>
