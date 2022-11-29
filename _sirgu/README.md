@@ -1,10 +1,6 @@
 # shantipowa
 shanti powas website
 
-## CMS Integration
-November 2022 wurde die Seite so verändert, dass die Inhalte nicht mehr direkt auf der Seite gehosted und verändert werden, sondern auf einem separat gehosteten (headless) CMS.
-Für Fragen max@hintergrund.studio kontaktieren.
-
 cd Documents/github/shantipowa/shantipowa
 pwd
 *ls zeigt die files im ordner an

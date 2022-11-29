@@ -531,6 +531,15 @@
 	 ====================================================================*/
 
 	jQuery(document).ready(function() {
+		/* If not in debug mode, the console messages are suppressed ============*/		
+		if(false ===  $("body").hasClass("qt-debug")) {
+			var console = {};
+			console.log = function(){};
+			window.console = console;
+		} else {
+			if(typeof console === "undefined") { var console = { log: function (logMsg) { } }; }
+			console.log("Theme debug enabled the customizer \n ----------------------------------------------\n");
+		}
 		$.fn.qwInitPage();
 	});
 

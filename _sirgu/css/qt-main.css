@@ -5252,19 +5252,22 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center; }
 
   h5 {
+     color: #00FFB0;
     font-size: 0.8rem; }
 
   h4 {
-    font-size: 1rem; }
+     color: #00FFB0;
+    font-size: 1.5rem; }
 
   h3 {
-    font-size: 2rem; }
+     color: #00FFB0;
+    font-size: 2.25rem; }
 
   h2 {
-    font-size: 3rem; }
+    font-size: 3.38rem; }
 
   h1 {
-    font-size: 4rem; }
+    font-size: 5rem; }
 
   h1.qt-title {
     font-size: 14.199rem;
