@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
 import { onMount } from 'svelte';
 import Music from './Music.svelte';
 import Photos from './Photos.svelte';
@@ -155,46 +157,6 @@ $.fn.qtSmoothScroll = function(){
         $('html,body').animate({scrollTop:$(this.hash).offset().top - 70}, 800);
     });
 }
-$.fn.parallaxPolydecor = function(){
-    if($("body").hasClass("mobile")){
-        return;
-    }
-    if($(".qt-polydecor").length < 1 && $(".qt-polydecor-page").length < 1){
-        return;
-    }
-    var element1, element2, scrollTop;
-    $('.qt-polydecor').not(".nopoly").each(function(){
-        var container = $(this);
-        container.wrapInner( "<div class='qt-polydecor-content'></div>");
-        container.append('<div class="decor1"></div><div class="decor2"></div>');
-        element1 = container.find(".decor1"),
-        element2 = container.find(".decor2"); // assigning the object 
-        var $this = $(this);
-        var scrollTop = $(window).scrollTop();
-        var offset = $this.offset().top;
-        var height = $this.outerHeight();
-        var speed1 = 100;
-        var speed2 = 130;
-        var scrollTop;
-        var  offset = $this.offset().top,
-        height = $this.outerHeight();
-    });
-    function updatePolydecor(e) {
-        scrollTop = window.pageYOffset;
-        $('.qt-polydecor, .qt-polydecor-page > .kc_row, .qt-polydecor-page > .vc_row').each(function(){
-            var $this = $(this),
-            offset = $this.offset().top,
-            yBgPosition = Math.round((offset - scrollTop) );
-
-            $this.find(".decor1").css({top: (yBgPosition * 0.98) +"px"});
-            $this.find(".decor2").css({top: (yBgPosition * 0.6) +"px"});
-
-        });
-    }
-    updatePolydecor();
-    window.addEventListener('scroll', updatePolydecor, false);
-    return true;
-}
 
 $.fn.qwInitPage = function(){
 
@@ -205,7 +167,7 @@ $.fn.qwInitPage = function(){
     $("#stickymenu").sticky({topSpacing:0, responsiveWidth: true, zIndex: 100});
 
     //  initialize the animated background polygons
-    $.fn.parallaxPolydecor();
+    
 
     // background particles
     $.fn.qtparticlesJs();
@@ -252,7 +214,7 @@ $.fn.qwInitPage();
 </script>
 
 <header id="home" class="qt-header parallax-container scrollspy" >
-    <div class="parallax" data-start="" data-end=""><img src="images/sp/ShantiVinyl.png"  alt="background"></div>
+    <div class="parallax" data-start="" data-end=""><img src="img/ShantiVinyl.webp"  alt="background"></div>
     <div class="qt-valign-wrapper">
         <div class="qt-valign">
             <div class="container center-align">
@@ -324,12 +286,12 @@ $.fn.qwInitPage();
             </div>
            
             <div id="presskit" class="section section-presskit parallax-container scrollspy" >
-                <div class="parallax"><img src="images/parallax3.jpg" alt="background"></div>
+                <div class="parallax"><img src="img/parallax3.webp" alt="background"></div>
                 <div class="qt-polydecor poly4">
                         <div class="container">
                             <div class="qt-framed center-align"   data-100p-top="opacity:0;" data-80p-top="opacity:0;" data-30p-top="opacity:1;" >
                                 <h2 class="qt-section-title">Shop<i class="deco"></i></h2>
-                                <img src="images/sp_merch.jpg" width="100%" alt="background">
+                                <img src="img/sp_merch.webp" width="100%" alt="background">
                                 <h4 class="center-align"><a href="https://shantipowarecords.bandcamp.com/merch">Shanti Powa Records Shop</a></h4>
                             </div>
                         </div>
@@ -338,9 +300,9 @@ $.fn.qwInitPage();
             </div>
         </main>
     <footer class="qt-footer parallax-container blue-grey-text text-lighten-5">
-    <div class="parallax"><img src="images/parallax3.jpg" alt="background"></div>
+    <div class="parallax"><img src="img/parallax3.webp" alt="background"></div>
     <div class="container center-align">
-        <h3 class="qt-footertitle"><img src="images/sp/shantipowa_logo.png" width="300" alt="Shanti Powa OFFICIAL"></h3>
+        <h3 class="qt-footertitle"><img src="img/shantipowa_logo.webp" width="300" alt="Shanti Powa OFFICIAL"></h3>
         <h5><a href="#home" class="qwsmoothscroll">Shanti Powa</a><br>11 PIECE | REGGAE | RAP | SKA | CROSSOVER <br></h5>
         <div class="qt-social">
             <a href="https://itunes.apple.com/de/artist/shanti-powa/id586835713"><span class="qticon-itunes"></span></a>

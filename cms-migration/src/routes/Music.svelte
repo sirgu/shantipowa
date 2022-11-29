@@ -95,7 +95,7 @@ onMount(() => {
 </script>
 
 <div id="music" class="section section-music parallax-container scrollspy" >
-    <div class="parallax"><img src="images/parallax3.jpg" alt="background">
+    <div class="parallax"><img src="img/parallax3.webp" alt="background">
     </div>
     <h2 class="qt-section-title" data-100p-top="opacity:0;" data-80p-top="opacity:0;" data-50p-top="opacity:1;" data-30p-top="opacity:1;" data-8p-top="opacity:1;" data-0p-top="opacity:0;">MUSIC<i class="deco"></i></h2>
     <div id="carouselmusic" class="qt-gridstackCarousel-container">
