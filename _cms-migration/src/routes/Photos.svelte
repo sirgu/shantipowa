@@ -41,9 +41,11 @@ onMount(()=>{
     <h2 class="qt-section-title" data-100p-top="opacity:0;" data-80p-top="opacity:0;" data-50p-top="opacity:1;">PHOTOS<i class="deco"></i></h2>
     <div class="qtgallery"  data-bottom-top="opacity:0;" data-center-top="opacity:1;">
         {#if photos}
-        {#each photos as photo}
-            <div><img src="{photo.img.path}" alt="{photo.title}"></div>
-        {/each}
+            {#each photos as photo}
+                {#if photo.public && photo.img && photo.img.path && photo.title}
+                    <div><img src="{photo.img.path}" alt="{photo.title}"></div>
+                {/if}
+            {/each}
         {/if}
     </div>
 </div>

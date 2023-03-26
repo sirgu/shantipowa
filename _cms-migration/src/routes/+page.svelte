@@ -13,7 +13,7 @@ import Bio from './Bio.svelte';
 let content;
 
 async function loadContent() {
-    const response = await fetch('https://shanti.maxelia.com/content');
+    const response = await fetch('https://cms.shantipowa.com/content');
     const json = await response.json();
     content = json;
     setTimeout(() => {
@@ -217,7 +217,7 @@ onMount(async () => {
             <div class="container center-align">
         <!--<img src="images/SP_rOLLINGoN_WEB_03X.png" class="logo" alt="Logo">-->
 
-                <h4>11 PIECE | REGGAE | RAP | SKA | CROSSOVER</h4>
+                <h4>10 PIECE | REGGAE | RAP | SKA | CROSSOVER</h4>
             </div>
         </div>
     </div>
@@ -288,6 +288,7 @@ onMount(async () => {
                         <div class="container">
                             <div class="qt-framed center-align"   data-100p-top="opacity:0;" data-80p-top="opacity:0;" data-30p-top="opacity:1;" >
                                 <h2 class="qt-section-title">Shop<i class="deco"></i></h2>
+                                <h4 class="center-align"><a href="https://shanti-powa.myspreadshop.it">Shanti Powa Merch Shop</a></h4>
                                 <img src="img/sp_merch.webp" width="100%" alt="background">
                                 <h4 class="center-align"><a href="https://shantipowarecords.bandcamp.com/merch">Shanti Powa Records Shop</a></h4>
                             </div>
@@ -300,7 +301,7 @@ onMount(async () => {
     <div class="parallax"><img src="img/parallax3.webp" alt="background"></div>
     <div class="container center-align">
         <h3 class="qt-footertitle"><img src="img/shantipowa_logo.webp" width="300" alt="Shanti Powa OFFICIAL"></h3>
-        <h5><a href="#home" class="qwsmoothscroll">Shanti Powa</a><br>11 PIECE | REGGAE | RAP | SKA | CROSSOVER <br></h5>
+        <h5><a href="#home" class="qwsmoothscroll">Shanti Powa</a><br>10 PIECE | REGGAE | RAP | SKA | CROSSOVER <br></h5>
         <div class="qt-social">
             <a href="https://itunes.apple.com/de/artist/shanti-powa/id586835713"><span class="qticon-itunes"></span></a>
             <a href="https://www.facebook.com/ShantiPowa/"><span class="qticon-facebook"></span></a>

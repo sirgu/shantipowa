@@ -102,12 +102,13 @@ onMount(() => {
         <div class="carousel qt-gridstackCarousel" data-vpadding="50" data-time_constant="500"   data-dist="-30"  data-shift="-20" data-padding="20" data-full_width="0" data-100p-top="opacity:0;" data-80p-top="opacity:0;" data-50p-top="opacity:1;" data-30p-top="opacity:1;" data-top-bottom="opacity:0;">
             {#if music}
             {#each music as song}
-
-            <div class="carousel-item">
-                <img src="{song.img.path}"  width="300" height="300" alt="{song.title}">
-                <h5>{song.title}</h5>
-                <a href="#modal1" class="btn modal-trigger" on:click={openIframe(song.source, song.link)}><span class="lnr lnr-music-note"></span></a>
-            </div>
+                {#if song.img && song.img.path && song.title && song.source && song.link}
+                    <div class="carousel-item">
+                        <img src="{song.img.path}"  width="300" height="300" alt="{song.title}">
+                        <h5>{song.title}</h5>
+                        <a href="#modal1" class="btn modal-trigger" on:click={openIframe(song.source, song.link)}><span class="lnr lnr-music-note"></span></a>
+                    </div>
+                {/if}
             {/each}
             {/if}
         </div>

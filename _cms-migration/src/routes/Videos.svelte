@@ -47,7 +47,9 @@ onMount(()=>{
             <div class="qtvideos">
                 {#if videos}
                 {#each videos as video}
+                    {#if video.public && video.img && video.img.path && video.title && video.link}
                     <div><a href="{video.link}" frameborder="0" allowfullscreen> <img src="{video.img.path}" alt="video"><span class="lnr lnr-film-play"></span></a><h5>{video.title}</h5></div>
+                    {/if}
                 {/each}
                 {/if}
             </div>

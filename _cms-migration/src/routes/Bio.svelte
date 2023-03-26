@@ -62,7 +62,7 @@ export let bio;
             <h2 class="qt-section-title">DATES &amp; BIO<i class="deco"></i></h2>
             <div class="content qt-polydecor poly2">
                 <h4>
-                    {#if bio}
+                    {#if bio && bio[0].dates}
                     {@html bio[0].dates.replaceAll('\r\n','<br>').replace('\"','"')}
                     <br>
                     {/if}
