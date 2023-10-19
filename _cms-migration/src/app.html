@@ -16,24 +16,10 @@
 		<link rel="stylesheet" href="css/qt-main.css" />
 		<link rel="shortcut icon" type="image/png" href="img/spICON.png" />
 		<title>SHANTIPOWA | REGGAE | RAP | SKA | CROSSOVER</title>
-		<meta http-equiv="content-security-policy" content="">
-		<link rel="modulepreload" href="./app/immutable/start-0d78e347.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/index-e575d777.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/singletons-d5a162c3.js">
+		%sveltekit.head%
 	</head>
 	<body class="qt-debug-disabled">
-		<div style="display: contents">
-		<script type="module" data-sveltekit-hydrate="45h">
-			import { start } from "./app/immutable/start-0d78e347.js";
-
-			start({
-				env: {},
-				hydrate: null,
-				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="45h"]').parentNode,
-				version: "1697703704335"
-			});
-		</script></div>
+		<div style="display: contents">%sveltekit.body%</div>
 
 		<script src="js/modernizr-custom.js"></script>
 		<script src="js/jquery.js"></script>
