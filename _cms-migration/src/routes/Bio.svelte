@@ -65,17 +65,16 @@ export let bio;
                     {#if bio && bio[0].dates}
                     {@html bio[0].dates.replaceAll('\r\n','<br>').replace('\"','"')}
                     <br>
+                    <br>
                     {/if}
                 </h4>
 
-                <h4>Info & Booking: info@shantipowa.com <br>
-                We are working on getting concerts on the track again<br>
-                Tour organised in collaboration with Galo Bookings <br><br></h4>
 
                 <h4>BIO<br><br></h4>
                 <h5>  
                 {#if bio}
                     {@html bio[0].bio.replaceAll('\r\n','<br>').replace('\"','"')}
+                    <br>
                     <br>
                 {/if}
                 </h5>
