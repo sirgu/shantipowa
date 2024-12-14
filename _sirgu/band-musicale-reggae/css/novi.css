@@ -1,0 +1,249 @@
+[data-novi-id="39"]{
+  font-style: italic;
+}
+[data-novi-id="38"]{
+  font-style: italic;
+}
+[data-novi-id="37"] {
+  line-height: 32px;
+  font-family: 'Montserrat', sans-serif;
+}
+[data-novi-id="36"] {
+  line-height: 32px;
+  font-family: 'Montserrat', sans-serif;
+}
+[data-novi-id="35"] {
+  line-height: 32px;
+  font-family: 'Montserrat', sans-serif;
+}
+[data-novi-id="34"] {
+  line-height: 32px;
+  font-family: 'Montserrat', sans-serif;
+}
+[data-novi-id="33"] {
+  line-height: 32px;
+  font-family: 'Montserrat', sans-serif;
+}
+[data-novi-id="32"] {
+  line-height: 32px;
+  font-family: 'Montserrat', sans-serif;
+}
+[data-novi-id="31"] {
+  line-height: 32px;
+  font-family: 'Montserrat', sans-serif;
+}
+[data-novi-id="27"] {
+  line-height: 32px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+[data-novi-id="26"] {
+  text-align: justify;
+}
+[data-novi-id="2"] {
+  color: #2c7fa0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  line-height: 40.4px;
+}
+[data-novi-id="30"] {
+  text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+}
+
+[data-novi-id="29"] {
+  font-family: 'Montserrat', sans-serif;
+}
+
+[data-novi-id="28"] {
+  font-family: 'Montserrat', sans-serif;
+}
+
+[data-novi-id="27"] {
+  font-family: 'Montserrat', sans-serif;
+}
+
+[data-novi-id="26"] {
+  font-family: 'Montserrat', sans-serif;
+}
+
+[data-novi-id="25"] {
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+}
+
+[data-novi-id="24"] {
+  line-height: 32px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+[data-novi-id="23"] {
+  line-height: 32px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+[data-novi-id="22"] {
+  line-height: 32px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+[data-novi-id="21"] {
+  line-height: 32px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+[data-novi-id="20"] {
+  line-height: 32px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+[data-novi-id="19"] {
+  line-height: 32px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+[data-novi-id="18"] {
+  line-height: 32px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+[data-novi-id="17"] {
+  line-height: 32px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+[data-novi-id="16"] {
+  text-align: justify;
+  
+}
+
+[data-novi-id="15"] {
+  line-height: 32px;
+  font-size: 18px;
+}
+
+[data-novi-id="14"] {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+[data-novi-id="13"] {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+[data-novi-id="12"] {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+[data-novi-id="11"] {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+[data-novi-id="10"] {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+[data-novi-id="9"] {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+[data-novi-id="8"] {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 32px;
+}
+
+[data-novi-id="7"] {
+  text-align: justify;
+}
+
+[data-novi-id="6"] {
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+[data-novi-id="5"] {
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+[data-novi-id="4"] {
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+[data-novi-id="3"] {
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+[data-novi-id="2"] {
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+[data-novi-id="1"] {
+  color: #ed721d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  line-height: 40.4px;
+}
+
+[data-novi-id="0"] {
+  color: #c85c5e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  line-height: 40.4px;
+
+}
+
+.page-title.page-title-custom.novi-background.bg-image {
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
+.nome-azienda {
+  background-color: rgba(200, 92, 94,0.8);
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.servizio-azienda {
+  background-color: rgba(44, 127, 126, 0.8);;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+.page-title-text {
+    font-size: 2vh;
+}
+.rd-navbar-toggle {
+    display: none !important;
+}
+.rd-navbar-fixed .rd-navbar-panel {
+    height: 70px;
+}
+
+.rd-navbar-fixed .rd-navbar-brand img {
+    height: auto;
+    width: auto;
+    max-height: 50px;
+}
+
+.rd-navbar-fixed .rd-navbar-brand {
+    left: 25%;
+}
+}
