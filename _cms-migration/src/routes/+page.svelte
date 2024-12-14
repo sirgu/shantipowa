@@ -211,7 +211,7 @@ onMount(async () => {
 </script>
 
 <header id="home" class="qt-header parallax-container scrollspy" >
-    <div class="parallax" data-start="" data-end=""><img src="img/opportunity.webp"  alt="background"></div>
+    <div class="parallax" data-start="" data-end=""><img src="img/boxx.jpg"  alt="background"></div>
     <div class="qt-valign-wrapper">
         <div class="qt-valign">
             <div class="container center-align">
